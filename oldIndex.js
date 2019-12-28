@@ -1,6 +1,6 @@
 "use strict";
 
-var mqtt = require('mqtt')
+var mqtt = require('MQTT/mqtt');
 
 var mqttpromise = new Promise( function(resolve,reject){
   console.log("attempting to connect");
