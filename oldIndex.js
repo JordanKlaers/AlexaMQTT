@@ -10,6 +10,7 @@ var mqttpromise = new Promise( function(resolve,reject){
   client.on('connect', function() { // When connected
     // publish a message to any mqtt topic
     let color = '1024,0,1024,1';
+    // let color = '1024,1024,0,1';
 
     client.publish("colorPattern/start", "0");
     client.publish("colorPattern", color);
