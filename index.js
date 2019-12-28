@@ -1,5 +1,5 @@
 'use strict';
-var mqtt = require('mqtt');
+var mqtt = require('MQTT/mqtt');
 
 // --------------- Helpers that build all of the responses -----------------------
 
