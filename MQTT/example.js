@@ -1,4 +1,4 @@
-var mqtt = require('./')
+var mqtt = require('.')
 var client = mqtt.connect('mqtt://test.mosquitto.org')
 
 client.subscribe('presence')
